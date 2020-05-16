@@ -33,15 +33,22 @@ nav .right,
 
 nav .left {
   margin-left: 20px;
+  width: 10vw;
 }
 
 nav .right {
   margin-right: 20px;
+  width: 14vw;
 }
 
 nav .center {
-  width: 35vw;
+  width: 45vw;
   height: 35px;
+}
+
+nav .left,
+nav .right {
+  justify-content: space-between;
 }
 
 .search__input {
@@ -56,6 +63,12 @@ nav .center {
   border: none;
   font-size: 0.9rem;
   width: 100%;
+}
+
+.search__icon {
+  background: grey;
+  width: 70px;
+  height: inherit;
 }
 
 /* ! Light Theme

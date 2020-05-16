@@ -1,0 +1,13 @@
+html {
+  background: black;
+  color: white;
+}
+
+/* ! Light Theme
+@media (prefers-color-scheme: light) {
+  html {
+    background: white;
+    color: black;
+  }
+}
+*/

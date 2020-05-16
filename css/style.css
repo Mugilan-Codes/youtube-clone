@@ -71,6 +71,10 @@ nav .right {
   height: inherit;
 }
 
+main {
+  margin: 1.5rem 1.7rem;
+}
+
 /* ! Light Theme
 @media (prefers-color-scheme: light) {
   html {

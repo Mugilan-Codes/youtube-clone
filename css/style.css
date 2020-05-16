@@ -1,6 +1,11 @@
 html {
   background: black;
   color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+  width: 20px;
 }
 
 /* ! Light Theme

@@ -1,11 +1,61 @@
 html {
-  background: black;
+  background: #181818;
   color: white;
   font-family: 'Roboto', sans-serif;
 }
 
+.wrapper {
+  width: 100%;
+}
+
 .logo {
   width: 80px;
+}
+
+nav {
+  background: #202020;
+  /* padding: 0.8rem 0; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+
+nav .left,
+nav .center,
+nav .right,
+.search__input,
+.search__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav .left {
+  margin-left: 20px;
+}
+
+nav .right {
+  margin-right: 20px;
+}
+
+nav .center {
+  width: 35vw;
+  height: 35px;
+}
+
+.search__input {
+  background: black;
+  width: inherit;
+  height: inherit;
+  padding: 10px;
+}
+
+.search__input input {
+  background: none;
+  border: none;
+  font-size: 0.9rem;
+  width: 100%;
 }
 
 /* ! Light Theme

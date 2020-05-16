@@ -87,10 +87,16 @@ iframe {
   height: 450px;
 }
 
+h3 {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
 .line__links {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .line__links span {
@@ -155,8 +161,20 @@ aside .video .details {
   margin-left: 15px;
 }
 
+.details p,
+.links i,
+.links span {
+  color: #aaaaaa;
+}
+
+.details p,
+.links span {
+  font-size: 0.9rem;
+}
+
 aside .video .details .title {
   font-size: 0.9rem;
+  color: white;
   font-weight: bold;
 }
 
@@ -170,6 +188,48 @@ hr {
   height: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card i {
+  margin-right: 10px;
+}
+
+.publisher {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+
+.publisher div p:last-child {
+  color: #aaaaaa;
+  font-size: 0.8rem;
+}
+
+.publisher button {
+  border: none;
+  background: #cc0c00;
+  color: white;
+  height: 36px;
+  width: 115px;
+  border-radius: 3px;
+  font-size: 0.9rem;
+}
+
+.video-detail p {
+  padding-right: 20px;
+  margin-bottom: 10px;
+}
+
+.video-detail a {
+  text-decoration: none;
+  color: #aaaaaa;
+  font-size: 0.8rem;
 }
 
 /* ! Light Theme

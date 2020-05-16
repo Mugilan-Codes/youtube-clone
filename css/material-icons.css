@@ -33,3 +33,7 @@
 .material-icons.rotate {
   transform: rotateY(180deg);
 }
+
+.material-icons.translate {
+  transform: translateY(3px);
+}

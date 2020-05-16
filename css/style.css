@@ -146,6 +146,12 @@ aside .text-next p {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  font-size: 0.8rem;
+  color: #aaaaaa;
+}
+
+aside .text-next i {
+  margin-left: 5px;
 }
 
 aside .video {
@@ -193,6 +199,8 @@ hr {
 .card {
   display: flex;
   justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .card i {
@@ -232,7 +240,8 @@ hr {
   font-size: 0.8rem;
 }
 
-/* ! Light Theme
+/* ! Light Theme */
+/*
 @media (prefers-color-scheme: light) {
   html {
     background: white;
